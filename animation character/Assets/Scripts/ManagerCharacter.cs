@@ -15,21 +15,41 @@ public class ManagerCharacter : MonoBehaviour
 
     void Update()
     {
-
+        //Walking character
         float input = Input.GetAxis("Horizontal");
+        float input_vert = Input.GetAxis("Vertical");
+        Vector2 scale = transform.localScale;
         Vector2 movement_vector = transform.position;
         if (input > 0)
         {
             anim.SetBool("direction", true);
             anim.SetBool("walk", true);
-            movement_vector.x += Time.deltaTime * input * 5;
+            movement_vector.x += Time.deltaTime * input * 2;
             transform.position = movement_vector;
         }
         else if (input < 0)
         {
             anim.SetBool("direction", false);
             anim.SetBool("walk", true);
-            movement_vector.x += Time.deltaTime * input;
+            movement_vector.x += Time.deltaTime * input * 2;
+            transform.position = movement_vector;
+        }
+        else if (input_vert > 0 )
+        {
+            scale.x -= 0.01f;
+            scale.y -= 0.01f;
+            movement_vector.y += Time.deltaTime * input_vert * .05f;
+            anim.SetBool("walk", true);
+            transform.localScale = scale;
+            transform.position = movement_vector;
+        }
+        else if (input_vert < 0)
+        {
+            scale.x += 0.01f;
+            scale.y += 0.01f;
+            movement_vector.y += Time.deltaTime * input_vert * .05f;
+            anim.SetBool("walk", true);
+            transform.localScale = scale;
             transform.position = movement_vector;
         }
         else
