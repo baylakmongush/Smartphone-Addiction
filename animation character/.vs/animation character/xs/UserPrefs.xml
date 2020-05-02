@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{4CDF15D9-3A68-C18F-E729-608C404AF0BF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ManagerCharacter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Phone.cs">
     <Files>
-      <File FileName="Assets/Scripts/ManagerCharacter.cs" Line="6" Column="18" />
+      <File FileName="Assets/Scripts/ManagerCharacter.cs" Line="63" Column="104" />
+      <File FileName="Assets/Scripts/Phone.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
