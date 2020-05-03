@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{4CDF15D9-3A68-C18F-E729-608C404AF0BF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Phone.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ManagerCharacter.cs">
     <Files>
-      <File FileName="Assets/Scripts/ManagerCharacter.cs" Line="63" Column="104" />
+      <File FileName="Assets/Scripts/ManagerCharacter.cs" Line="63" Column="33" />
       <File FileName="Assets/Scripts/Phone.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bbb2ff12-60cb-4f82-b17e-3901a3218daa" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b51594ae-ce17-4d3d-bbd2-fac63f00a583" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
