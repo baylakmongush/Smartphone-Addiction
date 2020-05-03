@@ -13,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Clouds
+  - Menu
+  - foreground things
   - 
   - 
   - 
@@ -41,10 +41,10 @@ TagManager:
   - name: Background
     uniqueID: 796908221
     locked: 0
-  - name: Other things
+  - name: Clouds
     uniqueID: 2314440935
     locked: 0
-  - name: Player
+  - name: Menu
     uniqueID: 1965556107
     locked: 0
   - name: foreground things
