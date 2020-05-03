@@ -26,7 +26,7 @@ public class ManagerCharacter : MonoBehaviour
         Vector2 scale = transform.localScale;
         position = transform.position;
         Vector2 movement_vector = transform.position;
-        if (input > 0 && transform.position.x < 3.91f)
+        if (input > 0 && transform.position.x < 1.58f)
         {
             anim.SetBool("direction", true);
             anim.SetBool("walk", true);

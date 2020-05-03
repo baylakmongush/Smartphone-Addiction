@@ -64,7 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ManagerCharacter.cs" />
-    <Compile Include="Assets\Scripts\Phone.cs" />
+    <Compile Include="Assets\Scripts\inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\inventory\Item.cs" />
+    <Compile Include="Assets\Scripts\inventory\Items.cs" />
+    <Compile Include="Assets\Scripts\inventory\Slot.cs" />
+    <Compile Include="Assets\Scripts\timer\TimerSlider.cs" />
+    <Compile Include="Assets\Scripts\timer\slidershow.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
