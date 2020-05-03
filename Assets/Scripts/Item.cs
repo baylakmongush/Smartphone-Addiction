@@ -13,12 +13,11 @@ public class Item : MonoBehaviour
 		
 		if (obj.transform.tag == "Player")
 		{
-			//Debug.Log(obj.transform.tag);
-			///obj.GetComponent<Items>().AddItem(index);//Если наехал игрок, то он сможет подобрать предмет
+			
 			inv.item = sprite;
+			
 			Debug.Log(inv.item);
 			Destroy(gameObject); //Удаление объекта с карты
-			//Debug.Log(obj.transform.tag);
 		}
 	}
 }

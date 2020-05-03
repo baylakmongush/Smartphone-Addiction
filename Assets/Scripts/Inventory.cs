@@ -30,28 +30,30 @@ public class Inventory : MonoBehaviour
 			UpdateUI(); //Обновление интерфейса
 			canvas.enabled = !canvas.enabled;
 		}
-
+		
 
 	}
 
 	void UpdateUI()
 	{
-		/*//Debug.Log(slots.Length);
-		for (int i = 0; i < 4;i++)
-		{
-			if (item)
-		}*/
-		slots[0].sprite = item;
-		Debug.Log(slots[0].sprite);
-		for (int i = 0; i < slots.Length; i++) //Проверка всех предметов
-		{
-			bool active = false;
-			if (items.hasItems[i]) //Если такой предмет есть у пользователя, то он будет отображаться в слоте
-			{
-				active = true;
-			}
 
-			slots[i].UpdateSlot(active);
+		bool active = false;
+		
+		for (int i = 0; i < 2; i++)
+		{
+			if (slots[i].sprite == null)
+			{
+				Debug.Log(i);
+				slots[i].sprite = item;
+				if (items.hasItems[i]) //Если такой предмет есть у пользователя, то он будет отображаться в слоте
+				{
+					active = true;
+				}
+
+				slots[i].UpdateSlot(active);
+				item = null;
+				break;
+			}
 		}
 	}
 }
