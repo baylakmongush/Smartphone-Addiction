@@ -68,8 +68,13 @@
     <Compile Include="Assets\Scripts\inventory\Item.cs" />
     <Compile Include="Assets\Scripts\inventory\Items.cs" />
     <Compile Include="Assets\Scripts\inventory\Slot.cs" />
-    <Compile Include="Assets\Scripts\timer\TimerSlider.cs" />
-    <Compile Include="Assets\Scripts\timer\slidershow.cs" />
+    <Compile Include="Assets\Scripts\timer\Charging_slid.cs" />
+    <Compile Include="Assets\Scripts\timer\Child_slid.cs" />
+    <Compile Include="Assets\Scripts\timer\MainCharSlid.cs" />
+    <Compile Include="Assets\Scripts\timer\Phone_battery.cs" />
+    <Compile Include="Assets\Scripts\timer\Show\HintsShowSlid.cs" />
+    <Compile Include="Assets\Scripts\timer\Show\slidershow.cs" />
+    <Compile Include="Assets\Scripts\timer\Slider_microwave.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

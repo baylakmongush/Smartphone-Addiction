@@ -12,6 +12,8 @@ public class ManagerCharacter : MonoBehaviour
     float input_vert;
     public GameObject phone;
     Vector3 position;
+    public Slider_microwave flag;
+    public Charging_slid flag2;
 
     void Start()
     {
@@ -62,9 +64,12 @@ public class ManagerCharacter : MonoBehaviour
         }
         else
             anim.SetBool("walk", false);
-        if (input == 0 && input_vert == 0)
+        if (input == 0 && input_vert == 0 && (flag.animat == false || flag2.flag2 == false))
             phone.transform.position = Vector3.Lerp(phone.transform.position, new Vector3(phone.transform.position.x, Camera.main.ScreenToWorldPoint(new Vector3(Camera.main.pixelWidth, 0, 0)).y * 0.9f, 0), 2 * Time.deltaTime);
         else
+        {
             phone.transform.position = Vector3.Lerp(phone.transform.position, new Vector3(phone.transform.position.x, Camera.main.ScreenToWorldPoint(new Vector3(Camera.main.pixelWidth, 0, 0)).y * 1.4f, 0), 2 * Time.deltaTime);
+        }
+        
     }
 }

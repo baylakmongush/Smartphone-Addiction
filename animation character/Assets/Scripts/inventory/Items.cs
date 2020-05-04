@@ -5,8 +5,8 @@ using UnityEngine;
 public class Items : MonoBehaviour
 {
 
-	public int[] items = new int[] { 0, 1};
-	public bool[] hasItems = new bool[] { true, false};
+	public int[] items = new int[] {0, 1};
+	public bool[] hasItems = new bool[] {false, false};
 
 	private int currItem = 0;
 	public int defence = 0;

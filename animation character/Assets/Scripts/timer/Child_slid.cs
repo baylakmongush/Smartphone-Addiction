@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TimerSlider : MonoBehaviour
+public class Child_slid : MonoBehaviour
 {
     public Slider mySlider;
 
-    public int timeLeft = 60;
+    public int timeLeft = 10;
     private float gameTime;
 
     // Update is called once per frame

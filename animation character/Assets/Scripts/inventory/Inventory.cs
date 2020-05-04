@@ -10,11 +10,11 @@ public class Inventory : MonoBehaviour
 
 	public GameObject player;
 
-	private Items items;
+	public Items items;
 
 	public Transform inventorySlots;
 
-	private Slot[] slots;
+	public Slot[] slots;
 	public Sprite item;
 	void Start()
 	{
