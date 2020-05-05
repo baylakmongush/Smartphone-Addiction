@@ -14,3 +14,10 @@ Smartphone Addiction
 Управление  - стрелками (a, d).
 
 Недоработки. Не успели нормально оформить меню, подключить анимацию, когда персонаж стоит без телефона, звуки для каждой анимации. Также бэкрауд под стилистику главного персонажа. 
+
+ ![alt text](https://github.com/npetrelli/gamejam/blob/master/Game_over.png "Game Over page")
+
+ ![alt text](https://github.com/npetrelli/gamejam/blob/master/Main_game.png "Main page")
+
+ ![alt text](https://github.com/npetrelli/gamejam/blob/master/Start_image.png "Start Page")
+
