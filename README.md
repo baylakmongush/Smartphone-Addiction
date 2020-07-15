@@ -1,6 +1,8 @@
 # gamejam
 Игровой хакатон(1-3 мая). Команда ОБТКПИ - отдел братства творожного кольца по разработке игр.
 
+ссылка на itch.io - https://itch.io/jam/sibgamejam-may-2020/rate/633578
+
 Smartphone Addiction
 
 "Smartphones rule humanity." Humanity must also devote time to domestic broadcasting.
